@@ -1,0 +1,6 @@
+exemplo = str(input('Digite um nome: '))
+c = 0
+for i in exemplo:
+    if i.lower() =='a':
+        c +=1
+print(f'Total de letras a: {c}')
