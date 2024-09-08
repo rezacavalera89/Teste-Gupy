@@ -1,0 +1,11 @@
+t = int(input('Digite um numero: '))
+n = 9
+a,b = 0,1
+
+if t == 4:
+    print('Não pertence à sequencia de fibonacci')
+else:
+    print('sequência de fibonacci:')
+    for i in range(n):
+     print(a, end='')
+     a, b = b, a + b
